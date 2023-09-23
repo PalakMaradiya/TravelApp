@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TravelWithMe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Place_Name"> Place Name  </string>
+    <string name="Beach">  "Beach"  </string>
+    <string name="Book_Now">  "Book Now"  </string>
+    <string name="Rate">  "Rate"  </string>
+    <string name="Location" location="Location"> Location </string>
+    <string name="Descripition" descripition="Descripition"> Descripition </string>
+    <string name="Distance" distance="Distance"> Distance </string>
+    <string name="Price" price="Price"> Price </string>
+    <string name="Day" Day="Day"> Day </string>
+    <string name="Rating" Rating="Rating"> Rating </string>
+</resources>

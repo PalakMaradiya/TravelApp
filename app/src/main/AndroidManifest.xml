@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelWithMe"
+        tools:targetApi="31">
+        <activity
+            android:name=".ACTIVITY.AllDataDisplayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.HikingDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.DesertDataActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ACTIVITY.ForestDataActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ACTIVITY.HillsDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.BeachShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.BeachDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.AdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ACTIVITY.DashBordActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ACTIVITY.SigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.CreateAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.IntroScreenThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.IntroScreenSecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.IntroScreenOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVITY.SplechScreenActivity"
+            android:exported="true" >
+
+
+
+        </activity>
+        <activity
+            android:name=".ACTIVITY.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
